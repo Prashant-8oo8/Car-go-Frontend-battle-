@@ -25,7 +25,7 @@ Our project demonstrates how cutting-edge tools like Bolt AI and ChatGPT can be 
 
 ## 🎯 Hackathon Context
 
-This project was developed during the Frontend Battle, organized by IIT Bhubaneswer. Our goal was to explore practical use-cases of artificial intelligence in web development using accessible platforms.
+This project was developed during the Frontend Battle, organized by IIT Bhubaneswar. Our goal was to explore practical use-cases of artificial intelligence in web development using accessible platforms.
 
 ## 🛠 Installation & Setup
 
