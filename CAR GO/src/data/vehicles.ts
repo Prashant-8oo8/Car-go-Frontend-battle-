@@ -1,0 +1,108 @@
+import { Vehicle } from '../types';
+
+export const featuredVehicles: Vehicle[] = [
+  {
+    id: '1',
+    name: 'Tesla Model 3',
+    type: 'EV',
+    image: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.1s 0-60 mph',
+      power: '450 hp',
+      range: '358 miles',
+    },
+    price: '$39,990',
+    category: 'Pure Electric',
+  },
+  {
+    id: '2',
+    name: 'Ford Mustang Mach-E',
+    type: 'EV',
+    image: 'https://images.pexels.com/photos/3764958/pexels-photo-3764958.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.5s 0-60 mph',
+      power: '480 hp',
+      range: '312 miles',
+    },
+    price: '$46,895',
+    category: 'Pure Electric',
+  },
+  {
+    id: '3',
+    name: 'BMW M4 Coupe',
+    type: 'Gas',
+    image: 'https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.8s 0-60 mph',
+      power: '503 hp',
+      fuelEconomy: '16/23 mpg',
+    },
+    price: '$73,400',
+    category: 'High Performance',
+  },
+  {
+    id: '4',
+    name: 'Porsche Taycan',
+    type: 'EV',
+    image: 'https://images.pexels.com/photos/1638459/pexels-photo-1638459.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '2.6s 0-60 mph',
+      power: '750 hp',
+      range: '227 miles',
+    },
+    price: '$86,700',
+    category: 'Luxury Picks',
+  },
+  {
+    id: '5',
+    name: 'Toyota Supra GR',
+    type: 'Gas',
+    image: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.9s 0-60 mph',
+      power: '382 hp',
+      fuelEconomy: '22/30 mpg',
+    },
+    price: '$43,190',
+    category: 'Gas Icons',
+  },
+  {
+    id: '6',
+    name: 'Tesla Model Y',
+    type: 'EV',
+    image: 'https://images.pexels.com/photos/3846205/pexels-photo-3846205.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.5s 0-60 mph',
+      power: '456 hp',
+      range: '330 miles',
+    },
+    price: '$47,740',
+    category: 'Pure Electric',
+  },
+  {
+    id: '7',
+    name: 'Rivian R1T',
+    type: 'EV',
+    image: 'https://images.pexels.com/photos/3136673/pexels-photo-3136673.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.0s 0-60 mph',
+      power: '835 hp',
+      range: '314 miles',
+    },
+    price: '$73,000',
+    category: 'Adventure-Ready',
+  },
+  {
+    id: '8',
+    name: 'Dodge Charger SRT',
+    type: 'Gas',
+    image: 'https://images.pexels.com/photos/3136664/pexels-photo-3136664.jpeg?auto=compress&cs=tinysrgb&w=800',
+    specs: {
+      acceleration: '3.6s 0-60 mph',
+      power: '707 hp',
+      fuelEconomy: '13/22 mpg',
+    },
+    price: '$69,995',
+    category: 'Gas Icons',
+  },
+];
